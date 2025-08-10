@@ -1,3 +1,124 @@
-<!doctype html>
-<html><head><meta charset="utf-8"><title>SEM Cabral — Test</title></head>
-<body><h1>It works!</h1><p>GitHub Pages is live.</p></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Entretien Ménager Cabral</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <!-- Navigation bar -->
+      <nav class="nav">
+        <div class="logo">Service&nbsp;Entretien&nbsp;Ménager&nbsp;Cabral</div>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Hero section with background image -->
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Bringing&nbsp;Out&nbsp;the&nbsp;Shine&nbsp;in&nbsp;Your&nbsp;Floors</h1>
+          <p>Professional janitorial, floor stripping and waxing services in Montréal.</p>
+          <a href="#contact" class="btn">Request&nbsp;a&nbsp;Quote</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <!-- Services section -->
+      <section id="services" class="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li><strong>Janitorial Services</strong> &ndash; Daily cleaning tasks such as dusting, wiping surfaces, vacuuming, mopping and emptying trash keep workspaces clean and organized<span class="citation">[1]</span>.</li>
+          <li><strong>Restroom &amp; Sanitization</strong> &ndash; Thorough cleaning and disinfection of restrooms helps prevent the spread of germs and maintains hygiene standards<span class="citation">[2]</span>.</li>
+          <li><strong>Floor Stripping &amp; Waxing</strong> &ndash; Stripping away old finish and applying fresh wax revitalizes floors and provides a protective barrier against scratches and stains<span class="citation">[3]</span>. Waxed floors are safer, easier to clean, and extend the life of your flooring<span class="citation">[4]</span>.</li>
+          <li><strong>Window &amp; Specialized Cleaning</strong> &ndash; Regular window cleaning improves light and ambiance<span class="citation">[5]</span>, and we tailor specialized cleaning solutions for unique facilities<span class="citation">[5]</span>.</li>
+        </ul>
+      </section>
+      <!-- About section -->
+      <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Based in Montréal, Service&nbsp;Entretien&nbsp;Ménager&nbsp;Cabral specializes in janitorial cleaning and floor care for commercial and residential clients. Our professional team performs daily cleaning, restroom sanitization and detailed floor maintenance to keep your space clean and healthy<span class="citation">[6]</span>. We use eco‑friendly products and industry best practices to strip away worn finish, apply fresh wax and leave your floors shining like new<span class="citation">[7]</span>. By investing in professional floor care, you enjoy improved durability, enhanced safety and cost‑effective maintenance<span class="citation">[8]</span>.</p>
+      </section>
+      <!-- Gallery section -->
+      <section id="gallery" class="gallery">
+        <h2>Before&nbsp;&amp;&nbsp;After</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/before-tile.png" alt="Dirty tile floor before cleaning">
+            <span>Before</span>
+          </div>
+          <div class="gallery-item">
+            <img src="images/after-tile.png" alt="Clean tile floor after waxing">
+            <span>After</span>
+          </div>
+          <div class="gallery-item">
+            <img src="images/before-wood.png" alt="Dirty wood floor before cleaning">
+            <span>Before</span>
+          </div>
+          <div class="gallery-item">
+            <img src="images/after-wood.png" alt="Clean wood floor after waxing">
+            <span>After</span>
+          </div>
+          <div class="gallery-item">
+            <img src="images/before-concrete.png" alt="Dirty concrete floor before cleaning">
+            <span>Before</span>
+          </div>
+          <div class="gallery-item">
+            <img src="images/after-concrete.png" alt="Clean concrete floor after polishing">
+            <span>After</span>
+          </div>
+        </div>
+      </section>
+      <!-- Contact section -->
+      <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to bring out the shine in your floors? Contact us today for a free quote.</p>
+        <div class="contact-info">
+          <p><strong>Phone:</strong> <a href="tel:5145551234">514‑555‑1234</a></p>
+          <p><strong>Email:</strong> <a href="mailto:info@servicescabral.com">info@servicescabral.com</a></p>
+          <p><strong>Location:</strong> Montréal, QC</p>
+        </div>
+        <form action="mailto:info@servicescabral.com" method="post" enctype="text/plain">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="Message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <p>&copy;&nbsp;2025&nbsp;Service&nbsp;Entretien&nbsp;Ménager&nbsp;Cabral. All rights reserved.</p>
+      <!-- Citations footnotes -->
+      <div class="citations">
+        <p><span id="fn1">[1]</span> <a href="【45042184803858†L60-L68】" target="_blank" rel="noopener">Empire Building Maintenance&nbsp;Inc.&nbsp;– What is included in professional janitorial services? (lines&nbsp;60‑68)</a></p>
+        <p><span id="fn2">[2]</span> <a href="【45042184803858†L70-L79】" target="_blank" rel="noopener">Empire Building Maintenance&nbsp;Inc.&nbsp;– Restroom cleaning and sanitization keeps facilities hygienic (lines&nbsp;70‑79)</a></p>
+        <p><span id="fn3">[3]</span> <a href="【843642517215708†L60-L77】" target="_blank" rel="noopener">Empire Building Maintenance&nbsp;Inc.&nbsp;– Floor stripping and waxing revitalizes appearance and protects floors (lines&nbsp;60‑77)</a></p>
+        <p><span id="fn4">[4]</span> <a href="【843642517215708†L80-L89】" target="_blank" rel="noopener">Empire Building Maintenance&nbsp;Inc.&nbsp;– Waxed floors improve safety and are easier to maintain (lines&nbsp;80‑89)</a></p>
+        <p><span id="fn5">[5]</span> <a href="【45042184803858†L102-L110】" target="_blank" rel="noopener">Empire Building Maintenance&nbsp;Inc.&nbsp;– Window cleaning improves ambiance; specialized cleaning tailored to clients (lines&nbsp;102‑110, 114‑122)</a></p>
+        <p><span id="fn6">[6]</span> <a href="【45042184803858†L60-L90】" target="_blank" rel="noopener">Empire Building Maintenance&nbsp;Inc.&nbsp;– Professional janitorial services include daily cleaning and floor maintenance (lines&nbsp;60‑90)</a></p>
+        <p><span id="fn7">[7]</span> <a href="【843642517215708†L60-L77】" target="_blank" rel="noopener">Empire Building Maintenance&nbsp;Inc.&nbsp;– Eco‑friendly floor stripping and waxing techniques restore shine (lines&nbsp;60‑77)</a></p>
+        <p><span id="fn8">[8]</span> <a href="【843642517215708†L80-L99】" target="_blank" rel="noopener">Empire Building Maintenance&nbsp;Inc.&nbsp;– Floor care delivers durability, safety and cost‑effective maintenance (lines&nbsp;80‑99)</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
